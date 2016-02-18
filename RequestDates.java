@@ -1,10 +1,10 @@
-import java.util.Arrays;
 
 /*
 February 17th 2015
 Divye Pratap Jain
 
-The particular program, gives all the required files from a given start date (inclusive) to end date (inclusive) with the minimum nu
+The particular program, gives all the required files from a given start date (inclusive) to end date (inclusive) with the minimum number of requests to the 
+database. 
  */
 public class RequestDates {
 	public static final int LENGTH_DATE = 8; // "yyyymmdd"
