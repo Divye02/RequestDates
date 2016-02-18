@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 February 17th 2015
 Divye Pratap Jain
@@ -18,8 +20,14 @@ public class RequestDates {
 	 * prints all the requests that will be made to the db on the console
 	 */
 	public static void main(String[] args){
-		String startDate = START_DATE; // "yyyymmdd"
-		String endDate   = END_DATE;  // "yyyymmdd"
+		if(args.length < 2){
+			throw new IllegalArgumentException("Enter atleast 2 dates");
+		}
+		if(Integer.parseInt(args[0]) > Integer.parseInt(args[1])){
+			throw new IllegalArgumentException("start date must be less than end date");
+		}
+		String startDate = args[0]; // "yyyymmdd"
+		String endDate   = args[1];  // "yyyymmdd"
 		if(Integer.parseInt(startDate) > Integer.parseInt(endDate)){
 			throw new IllegalArgumentException("Start date must be less than the end date");
 		}
