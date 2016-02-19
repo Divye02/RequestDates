@@ -10,5 +10,5 @@ First compile the program:
 and then run it:
 **java RequestDates startDate endDate**
 e.g:
-**java RequestDates 20140101 20151231**
+-**java RequestDates 20140101 20151231**
                 
