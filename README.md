@@ -16,9 +16,9 @@ e.g:<br />
 To run it from an IDE like Eclipse: <br />
 Step 1) : Comment out these lines (which is in the main method)<br /> 
 if(args.length < 2){<br /> 
-<tab to=t1>			throw new IllegalArgumentException("Enter atleast 2 dates");<br /> 
+&nbsp;			throw new IllegalArgumentException("Enter atleast 2 dates");<br /> 
 	}<br /> 
 if(Integer.parseInt(args[0]) > Integer.parseInt(args[1])){<br /> 
-<tab to=t1>			throw new IllegalArgumentException("start date must be less than end date");<br /> 
+&nbsp;			throw new IllegalArgumentException("start date must be less than end date");<br /> 
 	}<br /> 
 
