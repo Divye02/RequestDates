@@ -15,10 +15,10 @@ e.g:<br />
 <br /> 
 To run it from an IDE like Eclipse: <br />
 Step 1) : Comment out these lines (which is in the main method)<br /> 
-if(args.length < 2){
-			throw new IllegalArgumentException("Enter atleast 2 dates");
-	}
-if(Integer.parseInt(args[0]) > Integer.parseInt(args[1])){
-			throw new IllegalArgumentException("start date must be less than end date");
-	}
+if(args.length < 2){<br /> 
+			throw new IllegalArgumentException("Enter atleast 2 dates");<br /> 
+	}<br /> 
+if(Integer.parseInt(args[0]) > Integer.parseInt(args[1])){<br /> 
+			throw new IllegalArgumentException("start date must be less than end date");<br /> 
+	}<br /> 
 
