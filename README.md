@@ -8,5 +8,7 @@ First compile the program:
 javac RequestDates.java
 
 and then run it:
+java RequestDates startDate endDate
+e.g:
 java RequestDates 20140101 20151231
-                (startDate)(endDate)
+                
