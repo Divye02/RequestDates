@@ -11,4 +11,14 @@ Then run it:<br />
 **java RequestDates startDate endDate**<br /> 
 e.g:<br /> 
 **java RequestDates 20140101 20151231**
-                
+<br /> 
+<br /> 
+To run it from an IDE like Eclipse: <br />
+Step 1) : Comment out these lines (which is in the main method)<br /> 
+if(args.length < 2){
+			throw new IllegalArgumentException("Enter atleast 2 dates");
+	}
+if(Integer.parseInt(args[0]) > Integer.parseInt(args[1])){
+			throw new IllegalArgumentException("start date must be less than end date");
+	}
+
