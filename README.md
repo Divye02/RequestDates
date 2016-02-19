@@ -7,7 +7,7 @@ Since, I have no knowledge about the database from where these files are being r
 First compile the program:
 **javac RequestDates.java**
 
-and then run it:
+and then run it:\n
 **java RequestDates startDate endDate**
 e.g:
 **java RequestDates 20140101 20151231**
